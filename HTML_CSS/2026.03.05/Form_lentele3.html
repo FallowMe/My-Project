@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div>
+      <form action="#" method="get">
+        <h1>Form Exercise</h1>
+        <label for="text">Text input</label><br />
+        <input
+          type="text"
+          id="text"
+          placeholder="Enter text.."
+          required
+        /><br />
+        <label for="password">Password input</label><br />
+        <input type="password" id="password" required /><br />
+        <label for="email">E-mail input</label><br />
+        <input type="email" id="email" required /><br />
+        <label for="url">URL input</label><br />
+        <input type="url" id="url" required /><br />
+        <label for="search">Search input</label><br />
+        <input type="search" id="search" required /><br />
+        <label for="req">Required input</label><br />
+        <input type="text" id="req" required /><br />
+        <label for="read">Read-only input</label><br />
+        <input type="text" id="read" value="Readonly text" readonly /><br />
+        <label for="dis">Disabled input</label><br />
+        <input type="text" id="dis" disabled /><br />
+        <label for="single">Single-select</label><br />
+        <select id="single">
+          <option value="Option 1">Option 1</option>
+        </select>
+        <br />
+        <label for="multiple">Multiple-select</label><br />
+        <select id="multiple">
+          <option value="Option 1">Option 1</option>
+          <option value="Option 2">Option 2</option>
+          <option value="Option 3">Option 3</option>
+        </select>
+        <br />
+        <label for="check">Checkbox</label><br />
+        <input type="checkbox" name="check" value="checkme" /> Check me
+        <br />
+        <label for="checkboxes">Checkboxes</label><br />
+        <input type="checkbox" name="check" value="optiona" /> Option A <br />
+        <input type="checkbox" name="check" value="optionb" /> Option B <br />
+        <input type="checkbox" name="check" value="optionc" /> Option C <br />
+        <label for="radio">Radio buttons</label><br />
+        <input type="radio" name="buttons" value="optiona" /> Option A <br />
+        <input type="radio" name="buttons" value="optionb" /> Option B <br />
+        <input type="radio" name="buttons" value="optionc" /> Option C <br />
+        <label for="file">File input</label><br />
+        <input type="file" id="file" name="file" /><br />
+        <label for="message">Textarea</label><br />
+        <textarea name="message" id="message"></textarea><br />
+        <label for="date">Date</label><br />
+        <input type="date" id="date" /><br />
+        <label for="range">Range input</label><br />
+        <input
+          type="range"
+          value="0"
+          id="range"
+          name="range"
+          min="0"
+          max="55"
+        />
+        <br />
+        <input type="submit" value="Save" />
+        <input type="reset" value="Cancel" />
+      </form>
+    </div>
+  </body>
+</html>

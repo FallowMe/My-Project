@@ -1,0 +1,72 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f3f3f3;
+    margin: 0;
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+}
+
+header {
+    background-color: #ddd6c9;
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+section {
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+/* galerija */
+
+.dishes {
+    display: flex;
+    gap: 20px;
+}
+
+.dish img {
+    width: 100%;
+    max-width: 250px;
+    border-radius: 10px;
+}
+
+/* lentelė */
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: left;
+}
+
+/* forma */
+
+input, select, textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+button {
+    padding: 10px 15px;
+}
+
+/* footer */
+
+footer {
+    background-color: #1f2b3a;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}

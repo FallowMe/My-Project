@@ -1,0 +1,26 @@
+.container {
+  width: 500px;
+  border: 2px solid darkslategray;
+  padding: 2em;
+  margin: 5em auto;
+}
+
+/* CSS stilius įterpti čia */
+
+/* nuima taskus priekyje */
+ul {
+  list-style: none;
+}
+
+/* uzdeda pilka zvaigzdute */
+
+li::before {
+  content: "\01F7CA";
+  color: grey;
+}
+
+/* paspaudus ant zvaigzdutes, pasidaro auksine */
+
+li.active:before {
+  color: goldenrod;
+}

@@ -1,0 +1,12 @@
+.photo {
+  background-image:
+    url("../IMG/cat.png"), url("../IMG/parrot.png"), url("../IMG/grass.jpg");
+  background-size: 10rem, 20rem, cover;
+  background-repeat: no-repeat;
+  background-position:
+    150px 500px,
+    650px 300px,
+    center;
+  height: 50rem;
+  width: 60rem;
+}

@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mokinių tvarkaraštis</title>
+  </head>
+  <body>
+    <div>
+      <style>
+        table,
+        td,
+        th {
+          border: 2px solid grey;
+          border-collapse: collapse;
+        }
+        table {
+          margin: 20px;
+        }
+      </style>
+      <h1></h1>
+      <table style="width: 40%; table-layout: fixed">
+        <caption
+          style="
+            text-align: center;
+            font-weight: bold;
+            margin-bottom: 30px;
+            font-size: 20px;
+          "
+        >
+          Mokinių tvarkaraščio pavyzdys
+        </caption>
+        <tr style="text-align: left;">
+          <th>Diena</th>
+          <th>Dalykas</th>
+          <th>Klasė</th>
+          <th>Pastaba</th>
+        </tr>
+        <tr>
+          <td rowspan="2" style="background-color: rgb(128, 151, 209)">
+            Pirmadienis
+          </td>
+          <td style="background-color: rgb(155, 242, 147)">Matematika</td>
+          <td rowspan="2" style="background-color: rgb(223, 134, 227)">5A</td>
+          <td>Kontrolinis</td>
+        </tr>
+        <tr>
+          <td style="background-color: rgb(185, 157, 17)">Lietuvių kalba</td>
+          <td style="background-color: rgb(189, 153, 186)">Namų darbai</td>
+        </tr>
+        <tr>
+          <td style="background-color: red">Antradienis</td>
+          <td colspan="2" style="background-color: rgb(11, 166, 183)">
+            Kūno kultūra (jungtinė pamoka)
+          </td>
+          <td style="background-color: rgb(223, 134, 227)">Sporto salė</td>
+        </tr>
+      </table>
+    </div>
+  </body>
+</html>

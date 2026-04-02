@@ -1,0 +1,23 @@
+.container {
+  width: 960px;
+  margin: 0 auto;
+  background-color: #eee;
+}
+
+.box {
+  width: 30%;
+  margin: 1.66%;
+  float: left;
+  background-color: #333;
+  color: white;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.container::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* box-sizing: border-box sita savybe dedam visada */

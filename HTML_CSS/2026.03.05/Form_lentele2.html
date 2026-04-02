@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Table form</title>
+  </head>
+  <body>
+    <div>
+      <form action="#" method="get">
+        <h1>Užpildykite formą:</h1>
+        <h2>Visi laukai privalomi</h2>
+        <label for="Vardas">Vardas (iš didžiosios raidės):</label>
+        <br /><br />
+        <input type="text" placeholder="Vardas" required />
+
+        <p><label for="telefonas">Jūsų telefono numeris:</label></p>
+        <p>
+          <input type="number" placeholder="+370 xxx-xxxxx" required />
+        </p>
+        <p>
+          <label for="email">El. pašto adresas:</label>
+        </p>
+        <p>
+          <input type="email" placeholder="el.p.adresas" required />
+        </p>
+        <p>
+          <label for="url"
+            >Jūsų mėgstamiausios internetinės svetainės adresas:</label
+          >
+        </p>
+        <p>
+          <input type="url" placeholder="url adresas" required />
+        </p>
+        <p>
+          <label for="gimimodata">Jūsų gimimo data:</label>
+        </p>
+        <p>
+          <input type="text" placeholder="YYYY - mm - dd" required />
+        </p>
+        <p>
+          <label for="amzius">Jūsų amžius (18-65):</label>
+        </p>
+        <p>
+          <input type="number" placeholder="nuo 18 iki 65 metų" required />
+        </p>
+        <p>
+          <label for="pastokodas">Jūsų pašto kodas:</label>
+        </p>
+        <p>
+          <input type="text" placeholder="XX-01234" required />
+        </p>
+        <p>Jūsų mėgstamiausia spalva:</p>
+        <input type="color" required /><br />
+        <input type="submit" value="Pateikti" />
+      </form>
+    </div>
+  </body>
+</html>

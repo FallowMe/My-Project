@@ -1,0 +1,43 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  max-width: 800px;
+}
+
+#container {
+  width: 90%;
+}
+
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.grow {
+  flex-grow: 1;
+  flex-basis: 10rem;
+  height: 8rem;
+}
+
+.purple {
+  background-color: purple;
+}
+
+.rose {
+  background-color: rgb(239, 142, 142);
+}
+
+.orange {
+  background-color: chocolate;
+}
+
+.grey {
+  background-color: whitesmoke;
+}
+
+.blue {
+  background-color: blue;
+  height: 3rem;
+  text-align: center;
+  text-transform: uppercase;
+}
